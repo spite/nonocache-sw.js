@@ -16,5 +16,5 @@ If you want to change the location or scope of your service worker, make sure th
 
 In `nonocache-sw.js` there's a list of domains that will be matched in the fetch requests. It can be the start of the domains you'd like cached, or paths in your app:
 
-`http://www.domain.com/files` will match `http://www.domain.com/files/foo.js` and `http://www.domain.com/files/bar.css`\ 
+`http://www.domain.com/files` will match `http://www.domain.com/files/foo.js` and `http://www.domain.com/files/bar.css`. 
 `libs/` will match `localhost:8080/libs/foo.js`
